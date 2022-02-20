@@ -1,5 +1,5 @@
 PI = rand(5);
-PI_std = PI / diag(sum(PI, 2));
+PI_std = PI / diag(sum(PI));
 
 wL = ones(5, 1);
 gap = 10;
